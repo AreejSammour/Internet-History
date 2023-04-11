@@ -1,0 +1,241 @@
+body{
+   background-color: #bfd1df;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   color:#35455d ;
+   font-size: 20px;
+}
+.heading {
+    color: #35455d;
+    text-shadow: 4px 4px 8px #ef8c57;
+    text-align: center;
+    font-size: 50px;
+    width: 60%;
+    margin: 30px auto;
+    border:10px double #ecddd0;
+    border-radius: 50%;
+    box-shadow: 5px 5px 10px #35455d;
+    padding: 15px;
+}
+.intro{
+    width:80% ;
+    color: #35455d;
+    text-align: center;
+    margin: 30px auto;
+    font-weight: bold;
+    padding: 30px;
+    border: 20px dotted #92b1b6;
+}
+.head-img{
+    float: right;
+    margin: 0px 25px 15px 0px;
+    width: 150px;
+    height: auto;
+}
+
+.sec, .sec2{
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    transition: 2s;
+    border-radius: 20px;
+    margin: 5px auto 20px auto;
+}
+
+.sec2{ 
+    color: #bd6232;
+}
+
+.sec:hover, .sec2:hover{
+    border: 4px double #9fb2b5;
+    background-image: linear-gradient(to bottom right, #9fb2b5 , #c0896c);
+
+}
+
+.date{
+    width: 15%;
+    padding: 10px;
+    text-align: left;
+    font-size: 0.8em;
+    font-weight: bold;
+}
+
+.paragraph, .paragraph2{
+    width: 60%;
+    padding: 15px;
+    font-size: 14px;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 20px;
+}
+
+.paragraph{
+    background-color: #92b1b6;
+}
+
+.paragraph2{
+    background-color: #424d5f;
+    color: #bb8f76;
+}
+
+.bild{
+    width: 15%;
+    padding: 2px;
+    margin: auto;
+    text-align: center;
+}
+
+.fig{
+    width: 90%;
+    height: auto;
+    font-size:0.6em;
+}
+.img-styl{
+    width: 100%;
+    height: auto;
+    box-shadow: 2px 2px 6px #424d5f;
+}
+
+.img-styl:hover{
+    width: 130%;
+}
+
+.quote{
+    width: 90%;
+    color: #ecddd0;
+    font-style: italic;
+    display: flex;
+    margin: 0px auto;
+    padding-top: 4px;
+}
+
+.marker{
+    background-color:rgb(155, 145, 133) ;
+}
+
+.media{
+    width: 80%;
+    min-height: 500px;
+    margin: 50px auto;
+    text-align: center;
+    
+}
+
+.media h3{
+    padding-top: 10px;
+    font-style: italic;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 30%; 
+    background-image: linear-gradient(to bottom , #bfd1df , #7a99b0);
+    box-shadow: 5px 5px 15px #92b1b6;
+    min-height: 50px;
+}
+
+embed, iframe{
+    margin: 10px;
+    width: 400px;
+    height: 300px;
+}
+
+footer{
+    background-color: #35455d;
+    width: 100%;
+    height: auto;
+    margin: 10px auto 0px auto;
+    display: flex;
+    flex-wrap: wrap;
+    color: #92b1b6 ;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.7em;
+    justify-content: center;
+}
+
+.source, .adressen{
+    width: 35%;
+    padding: 20px;
+    text-align: left;
+}
+
+.list{
+    display: block;
+    padding: 5px;
+}
+
+.list a{
+	text-decoration:none;
+	color:inherit;
+}
+
+.copy-right{
+    width: 20%;
+    padding-top: 10%;
+    text-align: right;
+}
+
+
+@media screen and (max-width:750px){
+    body{
+        font-size: 15px;
+    }
+    .heading {
+         text-shadow: 3px 3px 6px #ef8c57;
+         font-size: 40px;
+         margin: 20px auto;
+         padding: 10px;
+    }
+    .intro{
+         margin: 20px auto;
+         padding: 20px;
+    }
+    .head-img{
+         margin: 0px 20px 10px 0px;
+         width: 100px;
+    }
+
+    .sec, .sec2{
+        font-size: 1.2em;
+    }
+    .date{
+        width: 100%;
+        padding: 5px;
+    }
+    .paragraph, .paragraph2{
+        width: 100%;
+        padding: 10px;
+    }
+
+    .bild{
+        width: 100%;
+        padding: 2px;
+    }
+
+    .img-styl{
+        width: 80%;
+    }
+    .img-styl:hover{
+        width: 80%;
+    }
+
+    .media{
+        width: 90%;
+        min-height: 600px;
+        margin: 50px auto;
+    }
+    
+    embed, iframe{
+        width: 80%;
+    }
+    footer{
+        display: inline-block;
+    }
+    
+    .source, .adressen{
+        width: 90%;
+        margin: 0;
+        padding-bottom: 0;
+    } 
+    .copy-right{
+        width: 90%;
+        padding: 0px 30px 10px 0px;
+        text-align: right;
+    }
+}
